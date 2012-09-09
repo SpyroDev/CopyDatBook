@@ -1,0 +1,12 @@
+name: ${project.name}
+main: net.roguedraco.copydatbook.CopyDatBookPlugin
+version: ${project.version}
+depends: [Vault]
+dev-url: ${project.url}
+commands:
+    cdb:
+      usage: /cdb
+      description: General CopyDatBook Commands
+    copydatbook:
+      usage: /copydatbook
+      description: General CopyDatBook Commands
